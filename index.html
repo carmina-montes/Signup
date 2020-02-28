@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Login Pages</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+
+    <style>
+        body {
+            background-color: darkseagreen;
+            background-image: url(images/GreenSucculents.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+       
+        .btn {
+          background-color:#679436;
+          border: none;
+          border-radius: 22px;
+          margin: 10px 0px 0px 0px;
+          width: 200px;
+          
+          
+        }
+        .btn:hover {
+          background-color: rgb(26, 153, 45);
+          color: #fff;
+        }
+        .btn-secondary:hover {
+         color:rgb(95, 180, 11);
+         color: #fff;
+        }
+       
+         
+       
+        .login-container {
+            align-content: center;
+            background-color: #73796d7b;
+            border: none #fff;
+            border-radius: 10px;
+            display: block;
+            flex-direction: column;
+            /* justify-content: flex-start; */
+            box-shadow: darkgray;
+            margin: 400px;
+            padding: 100px;
+            width: 650px;
+            
+        }
+        .form-check-label {
+          font-size: 15px;
+          
+        }
+    </style>
+    <body>
+      <form class="login-container">
+        <div class="login-form-group">
+          <h2>Sign up</h2>
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="email-form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="password-form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I agree to all the statement included
+                in <a href="#">Terms and Conditions</a>.
+              </label>
+            
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form> 
+    </body>
+</html>
